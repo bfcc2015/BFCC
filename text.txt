@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bible Fellowship Calvary Church | BFCC</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f8fafc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #006d77, #0a9396);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.2em;
+    }
+
+    nav {
+      background: #001219;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-top: 25px;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #005f73;
+      margin-bottom: 15px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #edf6f9;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    footer {
+      background: #001219;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Bible Fellowship Calvary Church</h1>
+    <p><strong>BFCC</strong></p>
+    <p>Chuukese Fellowship • Olympia, Washington</p>
+    <p><em>United in Christ, Rooted in Faith, Guided by the Word</em></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#ministries">Ministries</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About BFCC</h2>
+    <p>
+      Bible Fellowship Calvary Church (BFCC) is a Christ-centered church
+      located in Olympia, Washington. Our congregation is made up primarily
+      of Chuukese families from Micronesia, united in worship, prayer,
+      and fellowship.
+    </p>
+    <p>
+      We are committed to teaching the Word of God, strengthening families,
+      preserving our cultural identity, and serving our community with love.
+    </p>
+    <p>
+      <strong>“Your word is a lamp to my feet and a light to my path.”</strong><br />
+      – Psalm 119:105
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Worship & Fellowship</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Sunday Worship Service</h3>
+        <p>🕊 Time: 10:00 AM</p>
+        <p>Worship, prayer, and preaching of God’s Word.</p>
+      </div>
+      <div class="card">
+        <h3>Bible Study</h3>
+        <p>📖 Wednesday – 7:00 PM</p>
+        <p>Growing deeper in Scripture together.</p>
+      </div>
+      <div class="card">
+        <h3>Prayer Night</h3>
+        <p>🙏 Friday – 7:00 PM</p>
+        <p>Coming together in prayer and encouragement.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ministries">
+    <h2>Our Ministries</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Children’s Ministry</h3>
+        <p>Teaching children God’s Word in love and truth.</p>
+      </div>
+      <div class="card">
+        <h3>Youth Ministry</h3>
+        <p>Equipping Chuukese youth to stand strong in faith.</p>
+      </div>
+      <div class="card">
+        <h3>Family Fellowship</h3>
+        <p>Building unity through culture, faith, and fellowship.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Location</h2>
+    <p>
+      📍 <strong>Location:</strong> Olympia, Washington<br />
+      📞 <strong>Phone:</strong> Add phone number<br />
+      📧 <strong>Email:</strong> <a href="mailto:bfcc@example.com">bfcc@example.com</a>
+    </p>
+    <p>
+      Visitors are always welcome. Come worship with us!
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Bible Fellowship Calvary Church (BFCC)</p>
+    <p>
+      “For where two or three are gathered in My name, I am there.”<br />
+      – Matthew 18:20
+    </p>
+  </footer>
+
+</body>
+</html>
